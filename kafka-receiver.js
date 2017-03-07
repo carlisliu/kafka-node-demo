@@ -1,3 +1,4 @@
+//require('tingyun');
 var kafka = require('kafka-node')
 var Consumer = kafka.Consumer;
 var client = new kafka.Client('10.194.1.2:2181');
